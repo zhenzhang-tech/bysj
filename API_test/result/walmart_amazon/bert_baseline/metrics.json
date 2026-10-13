@@ -1,0 +1,16 @@
+{
+  "dataset": "walmart_amazon",
+  "method": "bert",
+  "method_name": "bert_baseline",
+  "model_name": "bert-base-uncased",
+  "best_epoch": 5,
+  "best_valid_f1": 0.5812807881773399,
+  "num_cases": 3285,
+  "accuracy": 0.9120243531202435,
+  "precision": 0.5098039215686274,
+  "recall": 0.7003367003367004,
+  "f1": 0.5900709219858157,
+  "total_time_sec": 31970.523101,
+  "avg_time_per_case_sec": 9.732275,
+  "best_threshold": 0.1
+}

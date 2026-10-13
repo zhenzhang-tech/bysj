@@ -1,0 +1,16 @@
+{
+  "dataset": "fodors_zagat",
+  "method": "strict_zero_shot_rule_gray_llm_unified_v4",
+  "model_generator": "deepseek-v3.2-thinking",
+  "model_gray": "qwen2.5:1.5b",
+  "num_cases": 189,
+  "accuracy": 0.9735449735449735,
+  "precision": 0.9473684210526315,
+  "recall": 0.8181818181818182,
+  "f1": 0.8780487804878049,
+  "total_time_sec": 28.550499,
+  "avg_time_per_case_sec": 0.151061,
+  "rule_coverage": 0.91005291005291,
+  "gray_ratio": 0.08994708994708994,
+  "num_final_rules": 2
+}

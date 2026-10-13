@@ -1,0 +1,148 @@
+[
+  {
+    "name": "Brand and Strong Model Match",
+    "priority": 100,
+    "decision": 1,
+    "all": [
+      {
+        "feature": "strong_model_exact",
+        "op": "==",
+        "value": 1
+      },
+      {
+        "feature": "variant_conflict",
+        "op": "==",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "name": "Strong Model Overlap with Name Support",
+    "priority": 96,
+    "decision": 1,
+    "all": [
+      {
+        "feature": "strong_model_overlap_count",
+        "op": ">=",
+        "value": 1
+      },
+      {
+        "feature": "name_seq",
+        "op": ">=",
+        "value": 0.45
+      },
+      {
+        "feature": "variant_conflict",
+        "op": "==",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "name": "Brand Model Match without Price Conflict",
+    "priority": 95,
+    "decision": 1,
+    "all": [
+      {
+        "feature": "strong_model_overlap_count",
+        "op": ">=",
+        "value": 1
+      },
+      {
+        "feature": "price_conflict",
+        "op": "==",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "name": "Brand with Moderate Name Support",
+    "priority": 92,
+    "decision": 1,
+    "all": [
+      {
+        "feature": "name_seq",
+        "op": ">=",
+        "value": 0.6
+      },
+      {
+        "feature": "variant_conflict",
+        "op": "==",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "name": "Brand Conflict",
+    "priority": 130,
+    "decision": 0,
+    "all": [
+      {
+        "feature": "strong_model_overlap_count",
+        "op": "==",
+        "value": 0
+      },
+      {
+        "feature": "name_seq",
+        "op": "<",
+        "value": 0.55
+      }
+    ]
+  },
+  {
+    "name": "Variant Conflict",
+    "priority": 128,
+    "decision": 0,
+    "all": [
+      {
+        "feature": "strong_model_overlap_count",
+        "op": ">=",
+        "value": 1
+      },
+      {
+        "feature": "variant_conflict",
+        "op": "==",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "Category Conflict with Weak Match",
+    "priority": 122,
+    "decision": 0,
+    "all": [
+      {
+        "feature": "strong_model_overlap_count",
+        "op": "==",
+        "value": 0
+      },
+      {
+        "feature": "name_seq",
+        "op": "<",
+        "value": 0.65
+      }
+    ]
+  },
+  {
+    "name": "Price Conflict and Weak Model Evidence",
+    "priority": 119,
+    "decision": 0,
+    "all": [
+      {
+        "feature": "price_conflict",
+        "op": "==",
+        "value": 1
+      },
+      {
+        "feature": "strong_model_overlap_count",
+        "op": "==",
+        "value": 0
+      },
+      {
+        "feature": "name_seq",
+        "op": "<",
+        "value": 0.6
+      }
+    ]
+  }
+]

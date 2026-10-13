@@ -1,0 +1,13 @@
+{
+  "dataset": "abt_buy",
+  "method": "zero_shot",
+  "method_name": "zero_shot_qwen2.5_1.5b",
+  "model": "qwen2.5:1.5b",
+  "num_cases": 1916,
+  "accuracy": 0.894572025052192,
+  "precision": 0.5094339622641509,
+  "recall": 0.5242718446601942,
+  "f1": 0.5167464114832536,
+  "total_time_sec": 4830.944558,
+  "avg_time_per_case_sec": 2.52137
+}

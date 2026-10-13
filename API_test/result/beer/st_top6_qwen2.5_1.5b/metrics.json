@@ -1,0 +1,13 @@
+{
+  "dataset": "beer",
+  "method": "st_top6",
+  "method_name": "st_top6_qwen2.5_1.5b",
+  "model": "qwen2.5:1.5b",
+  "num_cases": 298,
+  "accuracy": 0.889261744966443,
+  "precision": 1.0,
+  "recall": 0.1951219512195122,
+  "f1": 0.326530612244898,
+  "total_time_sec": 807.467986,
+  "avg_time_per_case_sec": 2.709624
+}

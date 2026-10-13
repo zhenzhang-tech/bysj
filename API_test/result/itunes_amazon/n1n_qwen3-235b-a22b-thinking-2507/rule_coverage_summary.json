@@ -1,0 +1,11 @@
+{
+  "num_cases": 228,
+  "rule_hits": 130,
+  "gray_hits": 98,
+  "rule_coverage": 0.5701754385964912,
+  "gray_ratio": 0.4298245614035088,
+  "rule_hit_counter": {
+    "Generic Weak Name": 93,
+    "Generic Strong Name": 37
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "dataset": "dblp_acm",
+  "method": "strict_zero_shot_rule_gray_llm_unified_v4",
+  "model_generator": "claude-sonnet-4-6",
+  "model_gray": "qwen2.5:1.5b",
+  "num_cases": 2473,
+  "accuracy": 0.9789729073999192,
+  "precision": 0.9083333333333333,
+  "recall": 0.9819819819819819,
+  "f1": 0.9437229437229437,
+  "total_time_sec": 545.538797,
+  "avg_time_per_case_sec": 0.220598,
+  "rule_coverage": 0.3121714516781237,
+  "gray_ratio": 0.6878285483218762,
+  "num_final_rules": 6
+}

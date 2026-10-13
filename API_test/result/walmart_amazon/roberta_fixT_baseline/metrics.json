@@ -1,0 +1,20 @@
+{
+  "dataset": "walmart_amazon",
+  "method": "roberta",
+  "method_name": "roberta_fixT_baseline",
+  "model_name": "D:\\bysj\\API_test\\hf_models\\roberta-base",
+  "mode": "pretrained_embedding_cosine_similarity",
+  "threshold_rule": "similarity > 0.995",
+  "threshold": 0.995,
+  "num_cases": 3285,
+  "accuracy": 0.5360730593607306,
+  "precision": 0.1158422041327489,
+  "recall": 0.622895622895623,
+  "f1": 0.19535374868004224,
+  "tp": 185,
+  "tn": 1576,
+  "fp": 1412,
+  "fn": 112,
+  "total_time_sec": 26.619622,
+  "avg_time_per_case_sec": 0.008103
+}

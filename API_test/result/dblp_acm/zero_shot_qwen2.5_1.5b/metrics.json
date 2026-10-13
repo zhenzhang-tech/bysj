@@ -1,0 +1,13 @@
+{
+  "dataset": "dblp_acm",
+  "method": "zero_shot",
+  "method_name": "zero_shot_qwen2.5_1.5b",
+  "model": "qwen2.5:1.5b",
+  "num_cases": 2473,
+  "accuracy": 0.976546704407602,
+  "precision": 0.9141630901287554,
+  "recall": 0.9594594594594594,
+  "f1": 0.9362637362637363,
+  "total_time_sec": 6259.623859,
+  "avg_time_per_case_sec": 2.531186
+}

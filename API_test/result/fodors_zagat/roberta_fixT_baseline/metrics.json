@@ -1,0 +1,20 @@
+{
+  "dataset": "fodors_zagat",
+  "method": "roberta",
+  "method_name": "roberta_fixT_baseline",
+  "model_name": "D:\\bysj\\API_test\\hf_models\\roberta-base",
+  "mode": "pretrained_embedding_cosine_similarity",
+  "threshold_rule": "similarity > 0.997",
+  "threshold": 0.997,
+  "num_cases": 189,
+  "accuracy": 0.7513227513227513,
+  "precision": 0.3076923076923077,
+  "recall": 0.9090909090909091,
+  "f1": 0.45977011494252884,
+  "tp": 20,
+  "tn": 122,
+  "fp": 45,
+  "fn": 2,
+  "total_time_sec": 3.227215,
+  "avg_time_per_case_sec": 0.017075
+}

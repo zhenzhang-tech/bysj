@@ -1,0 +1,13 @@
+{
+  "dataset": "itunes_amazon",
+  "method": "st_top6",
+  "method_name": "st_top6_qwen2.5_1.5b",
+  "model": "qwen2.5:1.5b",
+  "num_cases": 228,
+  "accuracy": 0.881578947368421,
+  "precision": 0.875,
+  "recall": 0.5490196078431373,
+  "f1": 0.674698795180723,
+  "total_time_sec": 666.125489,
+  "avg_time_per_case_sec": 2.921603
+}

@@ -1,0 +1,16 @@
+{
+  "dataset": "abt_buy",
+  "method": "distilbert",
+  "method_name": "distilbert_baseline",
+  "model_name": "D:\\bysj\\API_test\\hf_models\\distilbert-base-uncased",
+  "best_epoch": 5,
+  "best_valid_f1": 0.4736842105263158,
+  "num_cases": 1916,
+  "accuracy": 0.8256784968684759,
+  "precision": 0.2793103448275862,
+  "recall": 0.3932038834951456,
+  "f1": 0.32661290322580644,
+  "total_time_sec": 447.763312,
+  "avg_time_per_case_sec": 0.233697,
+  "best_threshold": 0.13
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Variant Conflict",
+    "priority": 128,
+    "decision": 0,
+    "all": [
+      {
+        "feature": "strong_model_overlap_count",
+        "op": ">=",
+        "value": 1
+      },
+      {
+        "feature": "variant_conflict",
+        "op": "==",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "Strong Model Overlap with Name Support",
+    "priority": 96,
+    "decision": 1,
+    "all": [
+      {
+        "feature": "strong_model_overlap_count",
+        "op": ">=",
+        "value": 1
+      },
+      {
+        "feature": "name_seq",
+        "op": ">=",
+        "value": 0.45
+      },
+      {
+        "feature": "variant_conflict",
+        "op": "==",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "name": "Brand Model Match without Price Conflict",
+    "priority": 95,
+    "decision": 1,
+    "all": [
+      {
+        "feature": "strong_model_overlap_count",
+        "op": ">=",
+        "value": 1
+      },
+      {
+        "feature": "price_conflict",
+        "op": "==",
+        "value": 0
+      }
+    ]
+  }
+]

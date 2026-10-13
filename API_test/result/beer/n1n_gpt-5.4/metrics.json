@@ -1,0 +1,16 @@
+{
+  "dataset": "beer",
+  "method": "strict_zero_shot_rule_gray_llm_unified_v4",
+  "model_generator": "gpt-5.4",
+  "model_gray": "qwen2.5:1.5b",
+  "num_cases": 298,
+  "accuracy": 0.9496644295302014,
+  "precision": 0.9642857142857143,
+  "recall": 0.6585365853658537,
+  "f1": 0.782608695652174,
+  "total_time_sec": 90.128281,
+  "avg_time_per_case_sec": 0.302444,
+  "rule_coverage": 0.06711409395973154,
+  "gray_ratio": 0.9328859060402684,
+  "num_final_rules": 2
+}

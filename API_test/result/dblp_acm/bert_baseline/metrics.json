@@ -1,0 +1,15 @@
+{
+  "dataset": "dblp_acm",
+  "method": "bert",
+  "method_name": "bert_baseline",
+  "model_name": "bert-base-uncased",
+  "best_epoch": 4,
+  "best_valid_f1": 0.9562841530054644,
+  "num_cases": 2473,
+  "accuracy": 0.9866558835422564,
+  "precision": 0.9576837416481069,
+  "recall": 0.9684684684684685,
+  "f1": 0.9630459126539753,
+  "total_time_sec": 5106.155982,
+  "avg_time_per_case_sec": 2.064762
+}

@@ -1,0 +1,16 @@
+{
+  "dataset": "itunes_amazon",
+  "method": "strict_zero_shot_rule_gray_llm_unified_v4",
+  "model_generator": "qwen3-235b-a22b-thinking-2507",
+  "model_gray": "qwen2.5:1.5b",
+  "num_cases": 228,
+  "accuracy": 0.9210526315789473,
+  "precision": 0.8113207547169812,
+  "recall": 0.8431372549019608,
+  "f1": 0.8269230769230769,
+  "total_time_sec": 176.139523,
+  "avg_time_per_case_sec": 0.772542,
+  "rule_coverage": 0.5701754385964912,
+  "gray_ratio": 0.4298245614035088,
+  "num_final_rules": 2
+}

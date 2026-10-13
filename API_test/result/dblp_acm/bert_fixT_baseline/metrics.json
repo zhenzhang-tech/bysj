@@ -1,0 +1,20 @@
+{
+  "dataset": "dblp_acm",
+  "method": "bert",
+  "method_name": "bert_fixT_baseline",
+  "model_name": "D:\\bysj\\API_test\\hf_models\\bert-base-uncased",
+  "mode": "pretrained_embedding_cosine_similarity",
+  "threshold_rule": "similarity > 0.7",
+  "threshold": 0.7,
+  "num_cases": 2473,
+  "accuracy": 0.18358269308532146,
+  "precision": 0.18026796589524968,
+  "recall": 1.0,
+  "f1": 0.30546955624355004,
+  "tp": 444,
+  "tn": 10,
+  "fp": 2019,
+  "fn": 0,
+  "total_time_sec": 21.468034,
+  "avg_time_per_case_sec": 0.008681
+}

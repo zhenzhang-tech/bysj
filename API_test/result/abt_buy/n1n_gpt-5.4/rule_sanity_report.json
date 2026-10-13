@@ -1,0 +1,112 @@
+{
+  "num_input_rules": 8,
+  "num_kept_rules": 3,
+  "num_dropped_rules": 5,
+  "dropped": [
+    {
+      "rule": {
+        "name": "Brand and Strong Model Match",
+        "priority": 100,
+        "decision": 1,
+        "all": [
+          {
+            "feature": "strong_model_exact",
+            "op": "==",
+            "value": 1
+          },
+          {
+            "feature": "variant_conflict",
+            "op": "==",
+            "value": 0
+          }
+        ]
+      },
+      "reason": "product_yes_missing_strong_anchor"
+    },
+    {
+      "rule": {
+        "name": "Brand with Moderate Name Support",
+        "priority": 92,
+        "decision": 1,
+        "all": [
+          {
+            "feature": "name_seq",
+            "op": ">=",
+            "value": 0.6
+          },
+          {
+            "feature": "variant_conflict",
+            "op": "==",
+            "value": 0
+          }
+        ]
+      },
+      "reason": "product_yes_missing_strong_anchor"
+    },
+    {
+      "rule": {
+        "name": "Brand Conflict",
+        "priority": 130,
+        "decision": 0,
+        "all": [
+          {
+            "feature": "strong_model_overlap_count",
+            "op": "==",
+            "value": 0
+          },
+          {
+            "feature": "name_seq",
+            "op": "<",
+            "value": 0.55
+          }
+        ]
+      },
+      "reason": "no_rule_too_loose"
+    },
+    {
+      "rule": {
+        "name": "Category Conflict with Weak Match",
+        "priority": 122,
+        "decision": 0,
+        "all": [
+          {
+            "feature": "strong_model_overlap_count",
+            "op": "==",
+            "value": 0
+          },
+          {
+            "feature": "name_seq",
+            "op": "<",
+            "value": 0.65
+          }
+        ]
+      },
+      "reason": "no_rule_too_loose"
+    },
+    {
+      "rule": {
+        "name": "Price Conflict and Weak Model Evidence",
+        "priority": 119,
+        "decision": 0,
+        "all": [
+          {
+            "feature": "price_conflict",
+            "op": "==",
+            "value": 1
+          },
+          {
+            "feature": "strong_model_overlap_count",
+            "op": "==",
+            "value": 0
+          },
+          {
+            "feature": "name_seq",
+            "op": "<",
+            "value": 0.6
+          }
+        ]
+      },
+      "reason": "no_rule_too_loose"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "dataset": "dblp_acm",
+  "method": "strict_zero_shot_rule_gray_llm_unified_v4",
+  "model_generator": "qwen3-235b-a22b-thinking-2507",
+  "model_gray": "qwen2.5:1.5b",
+  "num_cases": 2473,
+  "accuracy": 0.9789729073999192,
+  "precision": 0.9100418410041841,
+  "recall": 0.9797297297297297,
+  "f1": 0.9436008676789588,
+  "total_time_sec": 2204.965026,
+  "avg_time_per_case_sec": 0.891615,
+  "rule_coverage": 0.3121714516781237,
+  "gray_ratio": 0.6878285483218762,
+  "num_final_rules": 6
+}

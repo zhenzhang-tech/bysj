@@ -1,0 +1,16 @@
+{
+  "dataset": "fodors_zagat",
+  "method": "roberta",
+  "method_name": "roberta_baseline",
+  "model_name": "D:\\bysj\\API_test\\hf_models\\roberta-base",
+  "best_epoch": 4,
+  "best_valid_f1": 1.0,
+  "num_cases": 189,
+  "accuracy": 0.9788359788359788,
+  "precision": 1.0,
+  "recall": 0.8181818181818182,
+  "f1": 0.9,
+  "total_time_sec": 491.77143,
+  "avg_time_per_case_sec": 2.601965,
+  "best_threshold": 0.07
+}

@@ -1,0 +1,13 @@
+{
+  "dataset": "beer",
+  "method": "jaccard_top6",
+  "method_name": "jaccard_top6_qwen2.5_1.5b",
+  "model": "qwen2.5:1.5b",
+  "num_cases": 298,
+  "accuracy": 0.8791946308724832,
+  "precision": 0.8571428571428571,
+  "recall": 0.14634146341463414,
+  "f1": 0.25,
+  "total_time_sec": 790.505379,
+  "avg_time_per_case_sec": 2.652703
+}

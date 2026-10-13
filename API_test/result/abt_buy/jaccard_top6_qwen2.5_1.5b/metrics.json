@@ -1,0 +1,13 @@
+{
+  "dataset": "abt_buy",
+  "method": "jaccard_top6",
+  "method_name": "jaccard_top6_qwen2.5_1.5b",
+  "model": "qwen2.5:1.5b",
+  "num_cases": 1916,
+  "accuracy": 0.8961377870563675,
+  "precision": 0.6129032258064516,
+  "recall": 0.09223300970873786,
+  "f1": 0.16033755274261605,
+  "total_time_sec": 4788.091422,
+  "avg_time_per_case_sec": 2.499004
+}

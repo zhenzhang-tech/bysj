@@ -1,0 +1,20 @@
+{
+  "dataset": "walmart_amazon",
+  "method": "bert",
+  "method_name": "bert_fixT_baseline",
+  "model_name": "D:\\bysj\\API_test\\hf_models\\bert-base-uncased",
+  "mode": "pretrained_embedding_cosine_similarity",
+  "threshold_rule": "similarity > 0.7",
+  "threshold": 0.7,
+  "num_cases": 3285,
+  "accuracy": 0.09041095890410959,
+  "precision": 0.09041095890410959,
+  "recall": 1.0,
+  "f1": 0.16582914572864324,
+  "tp": 297,
+  "tn": 0,
+  "fp": 2988,
+  "fn": 0,
+  "total_time_sec": 27.016181,
+  "avg_time_per_case_sec": 0.008224
+}

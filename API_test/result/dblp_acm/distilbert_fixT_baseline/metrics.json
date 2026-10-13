@@ -1,0 +1,20 @@
+{
+  "dataset": "dblp_acm",
+  "method": "distilbert",
+  "method_name": "distilbert_fixT_baseline",
+  "model_name": "D:\\bysj\\API_test\\hf_models\\distilbert-base-uncased",
+  "mode": "pretrained_embedding_cosine_similarity",
+  "threshold_rule": "similarity > 0.945",
+  "threshold": 0.945,
+  "num_cases": 2473,
+  "accuracy": 0.8297614233724222,
+  "precision": 0.5136094674556213,
+  "recall": 0.9774774774774775,
+  "f1": 0.6733902249806051,
+  "tp": 434,
+  "tn": 1618,
+  "fp": 411,
+  "fn": 10,
+  "total_time_sec": 12.945571,
+  "avg_time_per_case_sec": 0.005235
+}

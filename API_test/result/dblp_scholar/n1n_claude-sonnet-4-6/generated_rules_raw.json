@@ -1,0 +1,119 @@
+[
+  {
+    "name": "Paper Near Exact Title with Strong Author Support",
+    "priority": 100,
+    "decision": 1,
+    "all": [
+      {
+        "feature": "name_seq",
+        "op": ">=",
+        "value": 0.96
+      },
+      {
+        "feature": "party_overlap",
+        "op": ">=",
+        "value": 0.6
+      }
+    ]
+  },
+  {
+    "name": "Paper Strong Title and Moderate Author Support",
+    "priority": 98,
+    "decision": 1,
+    "all": [
+      {
+        "feature": "name_seq",
+        "op": ">=",
+        "value": 0.9
+      },
+      {
+        "feature": "party_overlap",
+        "op": ">=",
+        "value": 0.67
+      },
+      {
+        "feature": "party_tokens_jaccard",
+        "op": ">=",
+        "value": 0.33
+      }
+    ]
+  },
+  {
+    "name": "Paper Exact Title Under Missing Fields",
+    "priority": 96,
+    "decision": 1,
+    "all": [
+      {
+        "feature": "name_exact",
+        "op": "==",
+        "value": 1
+      },
+      {
+        "feature": "party_overlap",
+        "op": ">=",
+        "value": 0.5
+      },
+      {
+        "feature": "major_missing_count",
+        "op": ">=",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "Paper Strong Title Author Year Agreement",
+    "priority": 94,
+    "decision": 1,
+    "all": [
+      {
+        "feature": "name_seq",
+        "op": ">=",
+        "value": 0.88
+      },
+      {
+        "feature": "party_overlap",
+        "op": ">=",
+        "value": 0.5
+      },
+      {
+        "feature": "time_equal",
+        "op": "==",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "Paper Weak Title and Weak Author",
+    "priority": 130,
+    "decision": 0,
+    "all": [
+      {
+        "feature": "name_seq",
+        "op": "<",
+        "value": 0.45
+      },
+      {
+        "feature": "party_overlap",
+        "op": "<",
+        "value": 0.2
+      }
+    ]
+  },
+  {
+    "name": "Paper Weak Title Despite Same Year",
+    "priority": 126,
+    "decision": 0,
+    "all": [
+      {
+        "feature": "name_seq",
+        "op": "<",
+        "value": 0.35
+      },
+      {
+        "feature": "time_equal",
+        "op": "==",
+        "value": 1
+      }
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "dataset": "dblp_acm",
+  "method": "albert",
+  "method_name": "albert_baseline",
+  "model_name": "albert-base-v2",
+  "best_epoch": 4,
+  "best_valid_f1": 0.9565217391304348,
+  "num_cases": 2473,
+  "accuracy": 0.9850384148807116,
+  "precision": 0.9699769053117783,
+  "recall": 0.9459459459459459,
+  "f1": 0.9578107183580388,
+  "total_time_sec": 2206.08454,
+  "avg_time_per_case_sec": 0.892068
+}

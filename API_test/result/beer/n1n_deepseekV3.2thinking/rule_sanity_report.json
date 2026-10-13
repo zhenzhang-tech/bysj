@@ -1,0 +1,57 @@
+{
+  "num_input_rules": 5,
+  "num_kept_rules": 2,
+  "num_dropped_rules": 3,
+  "dropped": [
+    {
+      "rule": {
+        "name": "Beer Weak Name And No ABV Support",
+        "priority": 120,
+        "decision": 0,
+        "all": [
+          {
+            "feature": "name_seq",
+            "op": "<=",
+            "value": 0.62
+          }
+        ]
+      },
+      "reason": "no_rule_too_loose"
+    },
+    {
+      "rule": {
+        "name": "Beer Weak Name And Weak Brewery",
+        "priority": 118,
+        "decision": 0,
+        "all": [
+          {
+            "feature": "name_seq",
+            "op": "<=",
+            "value": 0.65
+          }
+        ]
+      },
+      "reason": "no_rule_too_loose"
+    },
+    {
+      "rule": {
+        "name": "Beer Strong Name With Brewery Support",
+        "priority": 95,
+        "decision": 1,
+        "all": [
+          {
+            "feature": "name_seq",
+            "op": ">=",
+            "value": 0.78
+          },
+          {
+            "feature": "name_jaccard",
+            "op": ">=",
+            "value": 0.6
+          }
+        ]
+      },
+      "reason": "beer_yes_missing_strong_anchor"
+    }
+  ]
+}

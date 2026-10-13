@@ -1,0 +1,20 @@
+{
+  "dataset": "dblp_scholar",
+  "method": "roberta",
+  "method_name": "roberta_fixT_baseline",
+  "model_name": "D:\\bysj\\API_test\\hf_models\\roberta-base",
+  "mode": "pretrained_embedding_cosine_similarity",
+  "threshold_rule": "similarity > 0.991",
+  "threshold": 0.991,
+  "num_cases": 5534,
+  "accuracy": 0.6353451391398627,
+  "precision": 0.28608438193930424,
+  "recall": 0.8967517401392111,
+  "f1": 0.43378226711560053,
+  "tp": 773,
+  "tn": 2743,
+  "fp": 1929,
+  "fn": 89,
+  "total_time_sec": 42.467515,
+  "avg_time_per_case_sec": 0.007674
+}

@@ -1,0 +1,16 @@
+{
+  "dataset": "abt_buy",
+  "method": "roberta",
+  "method_name": "roberta_baseline",
+  "model_name": "D:\\bysj\\API_test\\hf_models\\roberta-base",
+  "best_epoch": 5,
+  "best_valid_f1": 0.45614035087719296,
+  "num_cases": 1916,
+  "accuracy": 0.831419624217119,
+  "precision": 0.33043478260869563,
+  "recall": 0.5533980582524272,
+  "f1": 0.41379310344827586,
+  "total_time_sec": 5973.29849,
+  "avg_time_per_case_sec": 3.117588,
+  "best_threshold": 0.09000000000000001
+}

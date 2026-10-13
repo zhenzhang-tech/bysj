@@ -1,0 +1,20 @@
+{
+  "dataset": "beer",
+  "method": "distilbert",
+  "method_name": "distilbert_fixT_baseline",
+  "model_name": "D:\\bysj\\API_test\\hf_models\\distilbert-base-uncased",
+  "mode": "pretrained_embedding_cosine_similarity",
+  "threshold_rule": "similarity > 0.979",
+  "threshold": 0.979,
+  "num_cases": 298,
+  "accuracy": 0.785234899328859,
+  "precision": 0.3466666666666667,
+  "recall": 0.6341463414634146,
+  "f1": 0.4482758620689655,
+  "tp": 26,
+  "tn": 208,
+  "fp": 49,
+  "fn": 15,
+  "total_time_sec": 2.876264,
+  "avg_time_per_case_sec": 0.009652
+}

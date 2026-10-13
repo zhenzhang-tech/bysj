@@ -1,0 +1,59 @@
+# ============ 本地 Python 安装（绝对不要提交！）============
+python3.9.13/
+python3.9/
+python3*/
+Python/
+python/
+
+# ============ Python 缓存 ============
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ============ 虚拟环境 ============
+.venv/
+venv/
+env/
+ENV/
+
+# ============ 打包 / 构建产物 ============
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# ============ IDE / 编辑器 ============
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ============ 系统文件 ============
+.DS_Store
+Thumbs.db
+
+# ============ 日志 / 临时文件 ============
+*.log
+*.tmp
+*.temp
+
+# ============ 预训练模型 & 模型权重（公开可重下，不要提交）============
+hf_models/
+*.safetensors
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.onnx
+*.msgpack
+*.ot
+*.bin
+
+# ============ 大体积数据/压缩包（按需取消注释）============
+# data/
+# *.zip
+# *.7z
+# *.rar
+# *.tar.gz

@@ -1,0 +1,8 @@
+﻿Dataset,RKLEM w/o LLM,RKLEM,TP,TN,FP,FN,Gray_LLM_Num,Rule_Num,predictions_path
+AB,13.6,80.7,139,9,1701,67,1762,154,D:\bysj\API_test\result\abt_buy\n1n_deepseekV3.2thinking\predictions.csv
+WA,12.8,72.2,168,837,2151,129,2257,1028,D:\bysj\API_test\result\walmart_amazon\n1n_deepseekV3.2thinking\predictions.csv
+DA,32.9,94.4,426,306,1723,18,1701,772,D:\bysj\API_test\result\dblp_acm\n1n_deepseekV3.2thinking\predictions.csv
+DS,22.9,88.4,679,286,4386,183,4565,969,D:\bysj\API_test\result\dblp_scholar\n1n_deepseekV3.2thinking\predictions.csv
+BE,12.6,78.3,20,0,257,21,278,20,D:\bysj\API_test\result\beer\n1n_deepseekV3.2thinking\predictions.csv
+FZ,65.5,87.8,18,152,15,4,17,172,D:\bysj\API_test\result\fodors_zagat\n1n_deepseekV3.2thinking\predictions.csv
+IA,43.0,86.3,37,93,84,14,98,130,D:\bysj\API_test\result\itunes_amazon\n1n_deepseekV3.2thinking\predictions.csv

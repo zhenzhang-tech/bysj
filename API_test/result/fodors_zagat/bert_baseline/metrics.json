@@ -1,0 +1,16 @@
+{
+  "dataset": "fodors_zagat",
+  "method": "bert",
+  "method_name": "bert_baseline",
+  "model_name": "D:\\bysj\\API_test\\hf_models\\bert-base-uncased",
+  "best_epoch": 4,
+  "best_valid_f1": 0.631578947368421,
+  "num_cases": 189,
+  "accuracy": 0.8994708994708994,
+  "precision": 0.5517241379310345,
+  "recall": 0.7272727272727273,
+  "f1": 0.6274509803921569,
+  "total_time_sec": 417.843408,
+  "avg_time_per_case_sec": 2.210812,
+  "best_threshold": 0.09000000000000001
+}

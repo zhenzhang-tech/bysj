@@ -1,0 +1,20 @@
+{
+  "dataset": "fodors_zagat",
+  "method": "distilbert",
+  "method_name": "distilbert_fixT_baseline",
+  "model_name": "D:\\bysj\\API_test\\hf_models\\distilbert-base-uncased",
+  "mode": "pretrained_embedding_cosine_similarity",
+  "threshold_rule": "similarity > 0.9786",
+  "threshold": 0.9786,
+  "num_cases": 189,
+  "accuracy": 0.8412698412698413,
+  "precision": 0.41304347826086957,
+  "recall": 0.8636363636363636,
+  "f1": 0.5588235294117647,
+  "tp": 19,
+  "tn": 140,
+  "fp": 27,
+  "fn": 3,
+  "total_time_sec": 2.804116,
+  "avg_time_per_case_sec": 0.014837
+}

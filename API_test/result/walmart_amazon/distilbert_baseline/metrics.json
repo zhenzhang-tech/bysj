@@ -1,0 +1,16 @@
+{
+  "dataset": "walmart_amazon",
+  "method": "distilbert",
+  "method_name": "distilbert_baseline",
+  "model_name": "distilbert-base-uncased",
+  "best_epoch": 5,
+  "best_valid_f1": 0.481675392670157,
+  "num_cases": 3285,
+  "accuracy": 0.8946727549467276,
+  "precision": 0.4356955380577428,
+  "recall": 0.5589225589225589,
+  "f1": 0.4896755162241888,
+  "total_time_sec": 2515.632744,
+  "avg_time_per_case_sec": 0.765794,
+  "best_threshold": 0.08000000000000002
+}

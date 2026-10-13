@@ -1,0 +1,17 @@
+{
+  "dataset": "beer",
+  "method": "albert",
+  "method_name": "albert_fixT_baseline",
+  "model_name": "D:\\bysj\\API_test\\hf_models\\albert-base-v2",
+  "mode": "no_training_similarity_baseline",
+  "table_a_path": "D:\\bysj\\API_test\\data\\beer\\tableA.csv",
+  "table_b_path": "D:\\bysj\\API_test\\data\\beer\\tableB.csv",
+  "test_pairs_path": "D:\\bysj\\API_test\\data\\beer\\test.csv",
+  "save_dir": "D:\\bysj\\API_test\\result\\beer\\albert_fixT_baseline",
+  "max_length": 256,
+  "max_field_chars": 120,
+  "batch_size": 64,
+  "threshold": 0.976,
+  "device": "cuda",
+  "limit": 0
+}

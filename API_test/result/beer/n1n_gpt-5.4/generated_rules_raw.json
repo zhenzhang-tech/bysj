@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Beer Weak Name And No ABV Support",
+    "priority": 120,
+    "decision": 0,
+    "all": [
+      {
+        "feature": "name_seq",
+        "op": "<=",
+        "value": 0.62
+      }
+    ]
+  },
+  {
+    "name": "Beer Weak Name And Weak Brewery",
+    "priority": 118,
+    "decision": 0,
+    "all": [
+      {
+        "feature": "name_seq",
+        "op": "<=",
+        "value": 0.65
+      }
+    ]
+  },
+  {
+    "name": "Beer Strong Name Token Match",
+    "priority": 98,
+    "decision": 1,
+    "all": [
+      {
+        "feature": "name_jaccard",
+        "op": ">=",
+        "value": 0.75
+      }
+    ]
+  },
+  {
+    "name": "Beer High Name Similarity With Token Support",
+    "priority": 96,
+    "decision": 1,
+    "all": [
+      {
+        "feature": "name_seq",
+        "op": ">=",
+        "value": 0.78
+      },
+      {
+        "feature": "name_jaccard",
+        "op": ">=",
+        "value": 0.67
+      }
+    ]
+  },
+  {
+    "name": "Beer Strong Name With Brewery Support",
+    "priority": 95,
+    "decision": 1,
+    "all": [
+      {
+        "feature": "name_seq",
+        "op": ">=",
+        "value": 0.78
+      },
+      {
+        "feature": "name_jaccard",
+        "op": ">=",
+        "value": 0.6
+      }
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "dataset": "walmart_amazon",
+  "method": "st_top6",
+  "method_name": "st_top6_qwen2.5_1.5b",
+  "model": "qwen2.5:1.5b",
+  "num_cases": 3285,
+  "accuracy": 0.9171993911719939,
+  "precision": 0.9032258064516129,
+  "recall": 0.09427609427609428,
+  "f1": 0.17073170731707318,
+  "total_time_sec": 8979.723178,
+  "avg_time_per_case_sec": 2.733553
+}

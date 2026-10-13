@@ -1,0 +1,13 @@
+{
+  "dataset": "beer",
+  "method": "st_pos3_neg3",
+  "method_name": "st_pos3_neg3_qwen2.5_1.5b",
+  "model": "qwen2.5:1.5b",
+  "num_cases": 298,
+  "accuracy": 0.9194630872483222,
+  "precision": 0.9047619047619048,
+  "recall": 0.4634146341463415,
+  "f1": 0.6129032258064516,
+  "total_time_sec": 777.245009,
+  "avg_time_per_case_sec": 2.608205
+}

@@ -1,0 +1,20 @@
+{
+  "dataset": "abt_buy",
+  "method": "bert",
+  "method_name": "bert_fixT_baseline",
+  "model_name": "D:\\bysj\\API_test\\hf_models\\bert-base-uncased",
+  "mode": "pretrained_embedding_cosine_similarity",
+  "threshold_rule": "similarity > 0.7",
+  "threshold": 0.7,
+  "num_cases": 1916,
+  "accuracy": 0.10751565762004175,
+  "precision": 0.10751565762004175,
+  "recall": 1.0,
+  "f1": 0.1941564561734213,
+  "tp": 206,
+  "tn": 0,
+  "fp": 1710,
+  "fn": 0,
+  "total_time_sec": 20.430992,
+  "avg_time_per_case_sec": 0.010663
+}

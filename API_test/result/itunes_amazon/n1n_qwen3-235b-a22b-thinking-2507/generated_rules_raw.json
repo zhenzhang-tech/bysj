@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Generic Strong Name",
+    "priority": 90,
+    "decision": 1,
+    "all": [
+      {
+        "feature": "name_seq",
+        "op": ">=",
+        "value": 0.9
+      }
+    ]
+  },
+  {
+    "name": "Generic Weak Name",
+    "priority": 120,
+    "decision": 0,
+    "all": [
+      {
+        "feature": "name_seq",
+        "op": "<",
+        "value": 0.4
+      }
+    ]
+  }
+]

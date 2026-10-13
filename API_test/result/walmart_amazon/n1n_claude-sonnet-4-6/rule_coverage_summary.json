@@ -1,0 +1,11 @@
+{
+  "num_cases": 3285,
+  "rule_hits": 1028,
+  "gray_hits": 2257,
+  "rule_coverage": 0.31293759512937597,
+  "gray_ratio": 0.6870624048706241,
+  "rule_hit_counter": {
+    "Walmart Amazon Category Conflict Weak Match": 860,
+    "Walmart Amazon Exact Model Code Match": 168
+  }
+}

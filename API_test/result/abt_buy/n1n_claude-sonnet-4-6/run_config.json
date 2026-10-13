@@ -1,0 +1,40 @@
+{
+  "dataset": "abt_buy",
+  "method": "strict_zero_shot_rule_gray_llm_unified_v4",
+  "strict_zero_shot": true,
+  "generator_provider": "openai_compatible",
+  "generator_model": "claude-sonnet-4-6",
+  "gray_provider": "ollama",
+  "gray_model": "qwen2.5:1.5b",
+  "schema_mode": "registry",
+  "domain": "product",
+  "feature_profile": "product",
+  "desc_style": "kv",
+  "lang": "en",
+  "desc_order": [
+    "name",
+    "description",
+    "numeric"
+  ],
+  "schema": {
+    "left_map": {
+      "id": "id",
+      "name": "name",
+      "description": "description",
+      "numeric": "price"
+    },
+    "right_map": {
+      "id": "id",
+      "name": "name",
+      "description": "description",
+      "numeric": "price"
+    },
+    "numeric_kind": "price",
+    "time_kind": null,
+    "code_kind": null
+  },
+  "table_a_path": "D:\\bysj\\API_test\\data/abt_buy/tableA.csv",
+  "table_b_path": "D:\\bysj\\API_test\\data/abt_buy/tableB.csv",
+  "pairs_path": "D:\\bysj\\API_test\\data/abt_buy/test.csv",
+  "save_dir": "D:\\bysj\\API_test\\result/abt_buy/n1n_claude-sonnet-4-6"
+}

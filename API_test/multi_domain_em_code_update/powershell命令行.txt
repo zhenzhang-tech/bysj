@@ -1,0 +1,48 @@
+LLM基线方法
+命令行：
+python .\run_llm_baselines.py --method zero_shot --dataset beer
+python .\run_llm_baselines.py --method jaccard_top6 --dataset abt_buy
+下面st方法需要设置临时变量访问镜像huggingface网站
+$env:HF_ENDPOINT = "https://hf-mirror.com"
+python .\run_llm_baselines.py --method st_top6 --dataset dblp_acm
+python .\run_llm_baselines.py --method st_pos3_neg3 --dataset abt_buy
+
+DL基线方法
+命令行：
+$env:HF_ENDPOINT="https://hf-mirror.com"
+python .\run_dl_baselines.py --method bert --dataset fodors_zagat
+#已运行数据集：WA,FZ
+python .\run_dl_baselines.py --method roberta --dataset walmart_amazon
+#已运行数据集：AB，FZ,
+python .\run_dl_baselines.py --method albert --datasets all
+python .\run_dl_baselines.py --method distilbert --dataset fodors_zagat
+#已运行数据集：WA,AB,BE,FZ
+
+DL固定阈值方法
+python .\run_dl_fixT_baselines.py --method bert --datasets all --threshold 0.7
+python .\run_dl_fixT_baselines.py --method roberta --dataset walmart_amazon --threshold 0.996
+python .\run_dl_fixT_baselines.py --method albert --dataset  walmart_amazon --threshold 0.983
+python .\run_dl_fixT_baselines.py --method distilbert --dataset "dblp_scholar" --threshold 0.945
+
+实验组命令行
+鲁棒性分析：1/1/1
+ --generator_model deepseek-v3.2-thinking/qwen3-235b-a22b-thinking-2507/gpt-5.4
+ --run_tag "n1n_deepseekV3.2thinking" / "n1n_qwen3-235b-a22b-thinking-2507" /  "n1n_gpt-5.4" 
+
+python -m llm_rule_em_zero_shot_unified_v4.run_pipeline `
+  --datasets all `
+  --data_root "D:\bysj\API_test\data" `
+  --save_dir "D:\bysj\API_test\result" `
+  --run_tag  "n1n_gpt-5.4" `
+  --lang en `
+  --desc_style kv `
+  --generator_provider openai_compatible `
+  --generator_model gpt-5.4 `
+  --generator_api_base "https://api.n1n.ai/v1" `
+  --generator_api_key "sk-DrClcPYmVYFErH1fBJ8T7BofJm2NOQ3Ev2Who6wd9jDcyR88" `
+  --generator_max_tokens 2048 `
+  --gray_provider ollama `
+  --gray_model qwen2.5:1.5b
+
+数据可视化命令行
+python .\result_visualize.py --result-root "D:\bysj\API_test\result" --output-dir "D:\bysj\API_test\visualization_output"

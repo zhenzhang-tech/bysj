@@ -1,0 +1,20 @@
+{
+  "dataset": "fodors_zagat",
+  "method": "albert",
+  "method_name": "albert_fixT_baseline",
+  "model_name": "D:\\bysj\\API_test\\hf_models\\albert-base-v2",
+  "mode": "pretrained_embedding_cosine_similarity",
+  "threshold_rule": "similarity > 0.983",
+  "threshold": 0.983,
+  "num_cases": 189,
+  "accuracy": 0.3968253968253968,
+  "precision": 0.15151515151515152,
+  "recall": 0.9090909090909091,
+  "f1": 0.25974025974025977,
+  "tp": 20,
+  "tn": 55,
+  "fp": 112,
+  "fn": 2,
+  "total_time_sec": 3.708342,
+  "avg_time_per_case_sec": 0.019621
+}

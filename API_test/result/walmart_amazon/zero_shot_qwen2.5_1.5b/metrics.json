@@ -1,0 +1,13 @@
+{
+  "dataset": "walmart_amazon",
+  "method": "zero_shot",
+  "method_name": "zero_shot_qwen2.5_1.5b",
+  "model": "qwen2.5:1.5b",
+  "num_cases": 3285,
+  "accuracy": 0.90441400304414,
+  "precision": 0.4746268656716418,
+  "recall": 0.5353535353535354,
+  "f1": 0.5031645569620253,
+  "total_time_sec": 8222.241443,
+  "avg_time_per_case_sec": 2.502965
+}

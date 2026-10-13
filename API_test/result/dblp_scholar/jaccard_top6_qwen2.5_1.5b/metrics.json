@@ -1,0 +1,13 @@
+{
+  "dataset": "dblp_scholar",
+  "method": "jaccard_top6",
+  "method_name": "jaccard_top6_qwen2.5_1.5b",
+  "model": "qwen2.5:1.5b",
+  "num_cases": 5534,
+  "accuracy": 0.8632092518973618,
+  "precision": 0.6309226932668329,
+  "recall": 0.29350348027842227,
+  "f1": 0.4006334125098971,
+  "total_time_sec": 15442.491477,
+  "avg_time_per_case_sec": 2.790476
+}

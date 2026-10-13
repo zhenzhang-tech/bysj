@@ -1,0 +1,15 @@
+{
+  "dataset": "abt_buy",
+  "method": "bert",
+  "method_name": "bert_baseline",
+  "model_name": "bert-base-uncased",
+  "best_epoch": 5,
+  "best_valid_f1": 0.6206896551724138,
+  "num_cases": 1916,
+  "accuracy": 0.9352818371607515,
+  "precision": 0.7440476190476191,
+  "recall": 0.6067961165048543,
+  "f1": 0.6684491978609625,
+  "total_time_sec": 4556.084014,
+  "avg_time_per_case_sec": 2.377914
+}

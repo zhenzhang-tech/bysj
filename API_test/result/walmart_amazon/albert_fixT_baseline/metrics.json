@@ -1,0 +1,20 @@
+{
+  "dataset": "walmart_amazon",
+  "method": "albert",
+  "method_name": "albert_fixT_baseline",
+  "model_name": "D:\\bysj\\API_test\\hf_models\\albert-base-v2",
+  "mode": "pretrained_embedding_cosine_similarity",
+  "threshold_rule": "similarity > 0.972",
+  "threshold": 0.972,
+  "num_cases": 3285,
+  "accuracy": 0.3135464231354642,
+  "precision": 0.09745065789473684,
+  "recall": 0.797979797979798,
+  "f1": 0.1736899963356541,
+  "tp": 237,
+  "tn": 793,
+  "fp": 2195,
+  "fn": 60,
+  "total_time_sec": 33.954527,
+  "avg_time_per_case_sec": 0.010336
+}

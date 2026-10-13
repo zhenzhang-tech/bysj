@@ -1,0 +1,13 @@
+{
+  "dataset": "dblp_scholar",
+  "method": "st_top6",
+  "method_name": "st_top6_qwen2.5_1.5b",
+  "model": "qwen2.5:1.5b",
+  "num_cases": 5534,
+  "accuracy": 0.8579689194073004,
+  "precision": 0.5822510822510822,
+  "recall": 0.31206496519721577,
+  "f1": 0.4063444108761329,
+  "total_time_sec": 15017.198633,
+  "avg_time_per_case_sec": 2.713625
+}

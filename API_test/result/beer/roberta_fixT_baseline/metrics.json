@@ -1,0 +1,20 @@
+{
+  "dataset": "beer",
+  "method": "roberta",
+  "method_name": "roberta_fixT_baseline",
+  "model_name": "D:\\bysj\\API_test\\hf_models\\roberta-base",
+  "mode": "pretrained_embedding_cosine_similarity",
+  "threshold_rule": "similarity > 0.996",
+  "threshold": 0.996,
+  "num_cases": 298,
+  "accuracy": 0.4899328859060403,
+  "precision": 0.18994413407821228,
+  "recall": 0.8292682926829268,
+  "f1": 0.3090909090909091,
+  "tp": 34,
+  "tn": 112,
+  "fp": 145,
+  "fn": 7,
+  "total_time_sec": 4.061561,
+  "avg_time_per_case_sec": 0.013629
+}

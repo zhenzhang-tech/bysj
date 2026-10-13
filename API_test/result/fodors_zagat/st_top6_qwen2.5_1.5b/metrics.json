@@ -1,0 +1,13 @@
+{
+  "dataset": "fodors_zagat",
+  "method": "st_top6",
+  "method_name": "st_top6_qwen2.5_1.5b",
+  "model": "qwen2.5:1.5b",
+  "num_cases": 189,
+  "accuracy": 0.9365079365079365,
+  "precision": 1.0,
+  "recall": 0.45454545454545453,
+  "f1": 0.625,
+  "total_time_sec": 517.369379,
+  "avg_time_per_case_sec": 2.737404
+}

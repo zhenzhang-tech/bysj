@@ -1,0 +1,13 @@
+{
+  "dataset": "abt_buy",
+  "method": "st_pos3_neg3",
+  "method_name": "st_pos3_neg3_qwen2.5_1.5b",
+  "model": "qwen2.5:1.5b",
+  "num_cases": 1916,
+  "accuracy": 0.8689979123173278,
+  "precision": 0.3619631901840491,
+  "recall": 0.28640776699029125,
+  "f1": 0.3197831978319783,
+  "total_time_sec": 5213.458273,
+  "avg_time_per_case_sec": 2.721012
+}

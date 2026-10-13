@@ -1,0 +1,17 @@
+{
+  "dataset": "abt_buy",
+  "method": "distilbert",
+  "method_name": "distilbert_fixT_baseline",
+  "model_name": "D:\\bysj\\API_test\\hf_models\\distilbert-base-uncased",
+  "mode": "no_training_similarity_baseline",
+  "table_a_path": "D:\\bysj\\API_test\\data\\abt_buy\\tableA.csv",
+  "table_b_path": "D:\\bysj\\API_test\\data\\abt_buy\\tableB.csv",
+  "test_pairs_path": "D:\\bysj\\API_test\\data\\abt_buy\\test.csv",
+  "save_dir": "D:\\bysj\\API_test\\result\\abt_buy\\distilbert_fixT_baseline",
+  "max_length": 256,
+  "max_field_chars": 120,
+  "batch_size": 64,
+  "threshold": 0.9033,
+  "device": "cuda",
+  "limit": 0
+}

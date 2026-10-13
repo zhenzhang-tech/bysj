@@ -1,0 +1,15 @@
+{
+  "dataset": "walmart_amazon",
+  "method": "albert",
+  "method_name": "albert_baseline",
+  "model_name": "albert-base-v2",
+  "best_epoch": 1,
+  "best_valid_f1": 0.0,
+  "num_cases": 3285,
+  "accuracy": 0.9095890410958904,
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "total_time_sec": 2815.084377,
+  "avg_time_per_case_sec": 0.856951
+}

@@ -1,0 +1,20 @@
+{
+  "dataset": "abt_buy",
+  "method": "distilbert",
+  "method_name": "distilbert_fixT_baseline",
+  "model_name": "D:\\bysj\\API_test\\hf_models\\distilbert-base-uncased",
+  "mode": "pretrained_embedding_cosine_similarity",
+  "threshold_rule": "similarity > 0.9033",
+  "threshold": 0.9033,
+  "num_cases": 1916,
+  "accuracy": 0.3303757828810021,
+  "precision": 0.12473867595818815,
+  "recall": 0.8689320388349514,
+  "f1": 0.2181596587446679,
+  "tp": 179,
+  "tn": 454,
+  "fp": 1256,
+  "fn": 27,
+  "total_time_sec": 10.997209,
+  "avg_time_per_case_sec": 0.00574
+}

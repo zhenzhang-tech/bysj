@@ -1,0 +1,48 @@
+{
+  "dataset": "fodors_zagat",
+  "method": "strict_zero_shot_rule_gray_llm_unified_v4",
+  "strict_zero_shot": true,
+  "generator_provider": "openai_compatible",
+  "generator_model": "deepseek-v3.2-thinking",
+  "gray_provider": "ollama",
+  "gray_model": "qwen2.5:1.5b",
+  "schema_mode": "registry",
+  "domain": "restaurant",
+  "feature_profile": "restaurant",
+  "desc_style": "kv",
+  "lang": "en",
+  "desc_order": [
+    "name",
+    "description",
+    "location",
+    "code",
+    "category"
+  ],
+  "schema": {
+    "left_map": {
+      "id": "id",
+      "name": "name",
+      "description": "addr",
+      "location": "city",
+      "code": "phone",
+      "category": "type",
+      "numeric": "class"
+    },
+    "right_map": {
+      "id": "id",
+      "name": "name",
+      "description": "addr",
+      "location": "city",
+      "code": "phone",
+      "category": "type",
+      "numeric": "class"
+    },
+    "numeric_kind": "class",
+    "time_kind": null,
+    "code_kind": "phone"
+  },
+  "table_a_path": "D:\\bysj\\API_test\\data/fodors_zagat/tableA.csv",
+  "table_b_path": "D:\\bysj\\API_test\\data/fodors_zagat/tableB.csv",
+  "pairs_path": "D:\\bysj\\API_test\\data/fodors_zagat/test.csv",
+  "save_dir": "D:\\bysj\\API_test\\result/fodors_zagat/n1n_deepseekV3.2thinking"
+}

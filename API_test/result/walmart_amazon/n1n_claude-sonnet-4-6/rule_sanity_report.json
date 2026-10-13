@@ -1,0 +1,67 @@
+{
+  "num_input_rules": 6,
+  "num_kept_rules": 4,
+  "num_dropped_rules": 2,
+  "dropped": [
+    {
+      "rule": {
+        "name": "Walmart Amazon Same Brand Weak Model Evidence",
+        "priority": 130,
+        "decision": 0,
+        "all": [
+          {
+            "feature": "brand_exact",
+            "op": "==",
+            "value": 1
+          },
+          {
+            "feature": "code_exact",
+            "op": "==",
+            "value": 0
+          },
+          {
+            "feature": "name_jaccard",
+            "op": "<",
+            "value": 0.5
+          },
+          {
+            "feature": "shared_numeric_tokens",
+            "op": "==",
+            "value": 0
+          }
+        ]
+      },
+      "reason": "no_rule_too_loose"
+    },
+    {
+      "rule": {
+        "name": "Walmart Amazon Price Conflict Without Code Match",
+        "priority": 128,
+        "decision": 0,
+        "all": [
+          {
+            "feature": "brand_exact",
+            "op": "==",
+            "value": 1
+          },
+          {
+            "feature": "code_exact",
+            "op": "==",
+            "value": 0
+          },
+          {
+            "feature": "price_conflict",
+            "op": "==",
+            "value": 1
+          },
+          {
+            "feature": "name_overlap",
+            "op": "<",
+            "value": 0.8
+          }
+        ]
+      },
+      "reason": "no_rule_too_loose"
+    }
+  ]
+}

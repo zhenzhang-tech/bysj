@@ -1,0 +1,9 @@
+﻿Dataset,RuleAccuracy,GrayAccuracy
+AB,96.1,96.5
+WA,97.8,95.2
+DA,94.8,99.3
+DS,99.6,96.1
+BE,100.0,94.6
+FZ,98.8,82.4
+IA,100.0,85.7
+Average,98.2,92.8

@@ -1,0 +1,20 @@
+{
+  "dataset": "walmart_amazon",
+  "method": "distilbert",
+  "method_name": "distilbert_fixT_baseline",
+  "model_name": "D:\\bysj\\API_test\\hf_models\\distilbert-base-uncased",
+  "mode": "pretrained_embedding_cosine_similarity",
+  "threshold_rule": "similarity > 0.9798",
+  "threshold": 0.9798,
+  "num_cases": 3285,
+  "accuracy": 0.734855403348554,
+  "precision": 0.14655172413793102,
+  "recall": 0.4006734006734007,
+  "f1": 0.2146077547339946,
+  "tp": 119,
+  "tn": 2295,
+  "fp": 693,
+  "fn": 178,
+  "total_time_sec": 15.100983,
+  "avg_time_per_case_sec": 0.004597
+}

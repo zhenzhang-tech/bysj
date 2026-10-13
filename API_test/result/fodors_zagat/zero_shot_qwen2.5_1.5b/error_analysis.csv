@@ -1,0 +1,6 @@
+﻿pair_index,ltable_id,rtable_id,label,pred,correct,method,stage,raw_response,retrieved_indices,retrieved_scores,top_pos_indices,top_neg_indices,top_pos_scores,top_neg_scores
+3,38,256,1,0,0,zero_shot,LLM_BASELINE,0,[],[],[],[],[],[]
+59,58,276,1,0,0,zero_shot,LLM_BASELINE,0,[],[],[],[],[],[]
+74,27,245,1,0,0,zero_shot,LLM_BASELINE,0,[],[],[],[],[],[]
+83,422,295,0,1,0,zero_shot,LLM_BASELINE,1,[],[],[],[],[],[]
+184,108,326,1,0,0,zero_shot,LLM_BASELINE,0,[],[],[],[],[],[]

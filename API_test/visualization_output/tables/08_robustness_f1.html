@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>RKLEM F1 scores with different LLM backbones</title>
+<style>
+body{font-family:'Times New Roman','Microsoft YaHei',SimSun,serif;margin:24px;}
+table{border-collapse:collapse;width:100%;font-size:14px;}
+caption{caption-side:top;font-weight:600;margin-bottom:10px;font-size:16px;}
+th,td{border-top:1px solid #333;border-bottom:1px solid #333;padding:6px 8px;text-align:center;}
+th{font-weight:700;} tbody tr:last-child td{border-top:1.5px solid #333;}
+.note{margin-top:10px;font-size:12px;color:#555;}
+</style></head><body><table>
+<caption>RKLEM F1 scores with different LLM backbones</caption>
+<thead><tr>
+<th>Dataset</th>
+<th>deepseek</th>
+<th>qwen</th>
+<th>gpt</th>
+</tr></thead><tbody>
+<tr>
+<td>AB</td>
+<td><strong>80.7</strong></td>
+<td><strong>80.7</strong></td>
+<td><strong>80.7</strong></td>
+</tr>
+<tr>
+<td>WA</td>
+<td><strong>72.2</strong></td>
+<td><u>72.0</u></td>
+<td>71.8</td>
+</tr>
+<tr>
+<td>DA</td>
+<td><strong>94.4</strong></td>
+<td><u>94.4</u></td>
+<td><strong>94.4</strong></td>
+</tr>
+<tr>
+<td>DS</td>
+<td><u>88.4</u></td>
+<td><strong>88.4</strong></td>
+<td><u>88.4</u></td>
+</tr>
+<tr>
+<td>BE</td>
+<td><u>78.3</u></td>
+<td><strong>80.0</strong></td>
+<td><u>78.3</u></td>
+</tr>
+<tr>
+<td>FZ</td>
+<td><strong>87.8</strong></td>
+<td><strong>87.8</strong></td>
+<td><strong>87.8</strong></td>
+</tr>
+<tr>
+<td>IA</td>
+<td><strong>86.3</strong></td>
+<td><u>82.7</u></td>
+<td><strong>86.3</strong></td>
+</tr>
+<tr>
+<td>Average</td>
+<td><strong>84.0</strong></td>
+<td>83.7</td>
+<td><u>83.9</u></td>
+</tr>
+</tbody></table>
+<div class="note">The best value in each row is bold; the second best is underlined. Missing results are shown as —.</div>
+</body></html>

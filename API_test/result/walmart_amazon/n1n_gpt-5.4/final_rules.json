@@ -1,0 +1,75 @@
+[
+  {
+    "name": "Walmart Amazon Category Conflict Weak Match",
+    "priority": 124,
+    "decision": 0,
+    "all": [
+      {
+        "feature": "category_conflict",
+        "op": "==",
+        "value": 1
+      },
+      {
+        "feature": "strong_model_overlap_count",
+        "op": "==",
+        "value": 0
+      },
+      {
+        "feature": "code_exact",
+        "op": "==",
+        "value": 0
+      },
+      {
+        "feature": "name_seq",
+        "op": "<",
+        "value": 0.65
+      }
+    ]
+  },
+  {
+    "name": "Walmart Amazon Exact Model Code Match",
+    "priority": 100,
+    "decision": 1,
+    "all": [
+      {
+        "feature": "code_exact",
+        "op": "==",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "Walmart Amazon Brand And Exact Model Code",
+    "priority": 98,
+    "decision": 1,
+    "all": [
+      {
+        "feature": "brand_exact",
+        "op": "==",
+        "value": 1
+      },
+      {
+        "feature": "code_exact",
+        "op": "==",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "name": "Walmart Amazon Strong Model Overlap With Exact Code",
+    "priority": 96,
+    "decision": 1,
+    "all": [
+      {
+        "feature": "strong_model_overlap_count",
+        "op": ">=",
+        "value": 1
+      },
+      {
+        "feature": "code_exact",
+        "op": "==",
+        "value": 1
+      }
+    ]
+  }
+]

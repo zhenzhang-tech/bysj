@@ -1,0 +1,13 @@
+{
+  "num_cases": 2473,
+  "rule_hits": 772,
+  "gray_hits": 1701,
+  "rule_coverage": 0.3121714516781237,
+  "gray_ratio": 0.6878285483218762,
+  "rule_hit_counter": {
+    "Paper Weak Title and Weak Author": 306,
+    "Paper Near Exact Title with Strong Author Support": 451,
+    "Paper Strong Title Author Year Agreement": 9,
+    "Paper Strong Title and Moderate Author Support": 6
+  }
+}

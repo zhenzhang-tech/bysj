@@ -1,0 +1,20 @@
+{
+  "dataset": "itunes_amazon",
+  "method": "roberta",
+  "method_name": "roberta_fixT_baseline",
+  "model_name": "D:\\bysj\\API_test\\hf_models\\roberta-base",
+  "mode": "pretrained_embedding_cosine_similarity",
+  "threshold_rule": "similarity > 0.997",
+  "threshold": 0.997,
+  "num_cases": 228,
+  "accuracy": 0.6578947368421053,
+  "precision": 0.3246753246753247,
+  "recall": 0.49019607843137253,
+  "f1": 0.39062499999999994,
+  "tp": 25,
+  "tn": 125,
+  "fp": 52,
+  "fn": 26,
+  "total_time_sec": 4.955235,
+  "avg_time_per_case_sec": 0.021733
+}

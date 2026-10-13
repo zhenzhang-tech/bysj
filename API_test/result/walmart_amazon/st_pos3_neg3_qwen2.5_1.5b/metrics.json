@@ -1,0 +1,13 @@
+{
+  "dataset": "walmart_amazon",
+  "method": "st_pos3_neg3",
+  "method_name": "st_pos3_neg3_qwen2.5_1.5b",
+  "model": "qwen2.5:1.5b",
+  "num_cases": 3285,
+  "accuracy": 0.9111111111111111,
+  "precision": 0.5609756097560976,
+  "recall": 0.07744107744107744,
+  "f1": 0.13609467455621302,
+  "total_time_sec": 3489.014841,
+  "avg_time_per_case_sec": 1.062105
+}

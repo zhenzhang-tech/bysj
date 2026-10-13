@@ -1,0 +1,13 @@
+{
+  "dataset": "dblp_scholar",
+  "method": "st_pos3_neg3",
+  "method_name": "st_pos3_neg3_qwen2.5_1.5b",
+  "model": "qwen2.5:1.5b",
+  "num_cases": 5534,
+  "accuracy": 0.8398988073726057,
+  "precision": 0.486013986013986,
+  "recall": 0.4837587006960557,
+  "f1": 0.4848837209302325,
+  "total_time_sec": 14552.362011,
+  "avg_time_per_case_sec": 2.629628
+}

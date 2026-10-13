@@ -1,0 +1,20 @@
+{
+  "dataset": "dblp_acm",
+  "method": "albert",
+  "method_name": "albert_fixT_baseline",
+  "model_name": "D:\\bysj\\API_test\\hf_models\\albert-base-v2",
+  "mode": "pretrained_embedding_cosine_similarity",
+  "threshold_rule": "similarity > 0.953",
+  "threshold": 0.953,
+  "num_cases": 2473,
+  "accuracy": 0.4419733117670845,
+  "precision": 0.24257425742574257,
+  "recall": 0.9932432432432432,
+  "f1": 0.389920424403183,
+  "tp": 441,
+  "tn": 652,
+  "fp": 1377,
+  "fn": 3,
+  "total_time_sec": 35.083417,
+  "avg_time_per_case_sec": 0.014187
+}

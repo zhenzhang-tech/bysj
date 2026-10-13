@@ -1,0 +1,15 @@
+{
+  "dataset": "fodors_zagat",
+  "method": "albert",
+  "method_name": "albert_baseline",
+  "model_name": "albert-base-v2",
+  "best_epoch": 5,
+  "best_valid_f1": 0.7272727272727273,
+  "num_cases": 189,
+  "accuracy": 0.9417989417989417,
+  "precision": 1.0,
+  "recall": 0.5,
+  "f1": 0.6666666666666666,
+  "total_time_sec": 228.516599,
+  "avg_time_per_case_sec": 1.209083
+}

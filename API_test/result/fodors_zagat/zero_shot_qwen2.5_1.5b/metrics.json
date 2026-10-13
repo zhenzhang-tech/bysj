@@ -1,0 +1,13 @@
+{
+  "dataset": "fodors_zagat",
+  "method": "zero_shot",
+  "method_name": "zero_shot_qwen2.5_1.5b",
+  "model": "qwen2.5:1.5b",
+  "num_cases": 189,
+  "accuracy": 0.9735449735449735,
+  "precision": 0.9473684210526315,
+  "recall": 0.8181818181818182,
+  "f1": 0.8780487804878049,
+  "total_time_sec": 493.847068,
+  "avg_time_per_case_sec": 2.612947
+}

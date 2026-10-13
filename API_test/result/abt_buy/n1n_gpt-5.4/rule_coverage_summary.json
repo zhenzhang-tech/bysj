@@ -1,0 +1,12 @@
+{
+  "num_cases": 1916,
+  "rule_hits": 154,
+  "gray_hits": 1762,
+  "rule_coverage": 0.08037578288100208,
+  "gray_ratio": 0.9196242171189979,
+  "rule_hit_counter": {
+    "Brand Model Match without Price Conflict": 20,
+    "Strong Model Overlap with Name Support": 123,
+    "Variant Conflict": 11
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "dataset": "dblp_acm",
+  "method": "strict_zero_shot_rule_gray_llm_unified_v4",
+  "strict_zero_shot": true,
+  "generator_provider": "openai_compatible",
+  "generator_model": "gpt-5.4",
+  "gray_provider": "ollama",
+  "gray_model": "qwen2.5:1.5b",
+  "schema_mode": "registry",
+  "domain": "paper",
+  "feature_profile": "paper",
+  "desc_style": "kv",
+  "lang": "en",
+  "desc_order": [
+    "name",
+    "party",
+    "category",
+    "time"
+  ],
+  "schema": {
+    "left_map": {
+      "id": "id",
+      "name": "title",
+      "party": "authors",
+      "category": "venue",
+      "time": "year"
+    },
+    "right_map": {
+      "id": "id",
+      "name": "title",
+      "party": "authors",
+      "category": "venue",
+      "time": "year"
+    },
+    "numeric_kind": null,
+    "time_kind": "year",
+    "code_kind": null
+  },
+  "table_a_path": "D:\\bysj\\API_test\\data/dblp_acm/tableA.csv",
+  "table_b_path": "D:\\bysj\\API_test\\data/dblp_acm/tableB.csv",
+  "pairs_path": "D:\\bysj\\API_test\\data/dblp_acm/test.csv",
+  "save_dir": "D:\\bysj\\API_test\\result/dblp_acm/n1n_gpt-5.4"
+}
