@@ -72,9 +72,9 @@ REM ---- 7. configure remote ----
 echo [6/7] Setting remote origin...
 git remote get-url origin >nul 2>&1
 if errorlevel 1 (
-  git remote add origin https://github.com/zhenzhang-tech/bysj
+  git remote add origin git@github.com:zhenzhang-tech/bysj.git
 ) else (
-  git remote set-url origin https://github.com/zhenzhang-tech/bysj
+  git remote set-url origin git@github.com:zhenzhang-tech/bysj.git
 )
 git branch -M main
 
